@@ -68,8 +68,6 @@ public class MainActivity extends AppCompatActivity {
         if(requestCode==100){
             if(grantResults[0]==PackageManager.PERMISSION_GRANTED && grantResults[1]==PackageManager.PERMISSION_GRANTED){
                 enablethebutton();
-            }else{
-                runtime_permission();
             }
         }
     }
